@@ -9,16 +9,13 @@
   "short_name": "vtactech.github",
   "start_url": "https://vtactech.github.io/vtacapp/",
   "theme_color": "#ffffff",
-  "categories": [],
-  "screenshots": [],
   "icons": [
 {
       "src": "/icon512.png",
       "sizes": "512x512",
       "type": "image/png"
+      "purpose" : "any"
     }
 ],
-  "shortcuts": [],
-  "display_override": [],
   "lang": "en"
 }
