@@ -1,9 +1,9 @@
 {
   "background_color": "#ffffff",
-  "description": "This is an app to experience the world without eyes . Acts as a sixth sense .",
+  "description": "Feel the world without eyes . The sixth sense .",
   "dir": "ltr",
   "display": "standalone",
-  "name": "VTAC Sense : Feel world without eyes , the sixth sense",
+  "name": "VTAC Sense : Feel world without eyes . The sixth sense",
   "orientation": "portrait",
   "scope": "/",
   "short_name": "VTAC Sense",
