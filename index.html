@@ -58,9 +58,6 @@ header {
     </div>
     <canvas id="canvas" width=320 height=240></canvas>
 <script>
-if ('serviceWorker' in navigator) {
-   navigator.serviceWorker.register("/pwabuilder-sw.js");
-
 var to_run = 0;  
 const audioContext = new AudioContext();
 function playPianoSound(note_a , time_a) {
