@@ -1,12 +1,12 @@
 {
   "background_color": "#ffffff",
-  "description": "This is an app to experience the world without eyes .",
+  "description": "This is an app to experience the world without eyes . Acts as a sixth sense .",
   "dir": "ltr",
   "display": "standalone",
-  "name": "vtactech.github",
+  "name": "VTAC Sense : Feel world without eyes , the sixth sense",
   "orientation": "portrait",
   "scope": "/",
-  "short_name": "vtactech.github",
+  "short_name": "VTAC Sense",
   "start_url": "https://vtactech.github.io/vtacapp/",
   "theme_color": "#ffffff",
   "icons": [
