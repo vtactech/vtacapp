@@ -1,0 +1,18 @@
+{
+  "background_color": "#ffffff",
+  "description": "This is an app to experience the world without eyes .",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "vtactech.github",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "vtactech.github",
+  "start_url": "https://vtactech.github.io/vtacapp/",
+  "theme_color": "#ffffff",
+  "categories": [],
+  "screenshots": [],
+  "icons": [],
+  "shortcuts": [],
+  "display_override": [],
+  "lang": "en"
+}
