@@ -57,8 +57,10 @@ header {
       <button class = "ctrl_btn"> ... </button>
     </div>
     <canvas id="canvas" width=320 height=240></canvas>
-<Script SRC = "/pwabuilder-sw.js"> </script>
 <script>
+if ('serviceWorker' in navigator) {
+   navigator.serviceWorker.register("/pwabuilder-sw.js");
+
 var to_run = 0;  
 const audioContext = new AudioContext();
 function playPianoSound(note_a , time_a) {
