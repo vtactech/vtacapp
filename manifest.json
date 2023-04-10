@@ -13,8 +13,8 @@
   "screenshots": [],
   "icons": [
 {
-      "src": "/icon48.png",
-      "sizes": "48x48",
+      "src": "/icon512.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
 ],
