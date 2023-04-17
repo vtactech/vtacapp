@@ -30,30 +30,39 @@
 .a23 {
     font-size: 70px;
 }
-.ctrl_btn { 
-  display: flex;
-  margin : 0;
-  padding : 20px 40px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
-  color: #fff;
-  background-color: #e1306c;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.btn {
-  padding : 20px 40px;
-  width : 100%;
-  position:fixed;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  }
 .ply {
   width : 100%;
+}
+
+.m_btn {
+border: none;
+  border-radius: 10px;
+position : fixed ;
+bottom : 20px;
+left : 0px;
+height : 400px;
+font-size : 50px;
+font-family: 'Montserrat', sans-serif;
+color : white;
+width : 30%;
+background-color : #DB4437;
+cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.s_btn {
+border: none;
+  border-radius: 10px;
+position : fixed ;
+bottom : 20px;
+height : 400px;
+right : 0px;
+font-size : 50px;
+color : white ;
+font-family: 'Montserrat', sans-serif;
+width : 60%;
+background-color : #0F9D58;
+cursor: pointer;
+  transition: background-color 0.3s ease;
 }
   </style>
 
@@ -64,9 +73,9 @@
     </header>
     <video class = "ply"  id="player" autoplay></video>
     <div class = "btn">
-      <button class = "ctrl_btn" id="capture">Switch</button>
+      <button class = "s_btn" id="capture">Switch</button>
       <br>
-      <button class = "ctrl_btn" onclick="window.location.href='https://vtactech.github.io/vtacapp/more.html';"> ... </button>
+      <button class = "m_btn" onclick="window.location.href='https://vtactech.github.io/vtacapp/more.html';"> ... </button>
     </div>
     <canvas id="canvas" width=320 height=240></canvas>
 <script>
