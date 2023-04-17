@@ -2,7 +2,7 @@
   "background_color": "#ffffff",
   "description": "Feel the world without eyes . The sixth sense .",
   "dir": "ltr",
-  "display": "standalone",
+  "display": "fullscreen",
   "name": "VTAC Sense : Feel world without eyes . The sixth sense",
   "orientation": "portrait",
   "scope": "/",
